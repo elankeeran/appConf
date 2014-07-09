@@ -1,6 +1,6 @@
 {
   "name": "appconf",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Application Environment Configure",
   "keywords": [
     "node.js",
