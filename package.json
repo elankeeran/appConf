@@ -1,6 +1,6 @@
 {
   "name": "appconf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Application Environment Configure",
   "keywords": [
     "node.js",
@@ -27,6 +27,15 @@
     "url": "https://github.com/elankeeran/appConf.git"
   },
   "author": "Elankeeran <ekeeran@gmail.com>",
+  "contributors": [
+    {
+      "name": "Manu Gowda",
+      "email": "manugowda.ns@gmail.com"
+    },
+    {
+      "name": "Muthukumar",
+      "email": "mk.kraam@gmail.com"
+    }],
   "dependencies": {
     "jsonminify": "^0.2.3",
     "nconf": "^0.6.9"
