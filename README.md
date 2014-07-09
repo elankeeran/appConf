@@ -1,4 +1,6 @@
-<img src='https://travis-ci.org/elankeeran/appConf.svg?branch=master'/>
+[![NPM version](https://badge.fury.io/js/appconf.svg)](http://badge.fury.io/js/appconf)
+
+[![NPM](https://nodei.co/npm/appconf.png)](https://nodei.co/npm/appconf/)
 
 appConf
 =======
