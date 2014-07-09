@@ -1,5 +1,5 @@
 {
-  "name": "appConf",
+  "name": "appconf",
   "version": "0.0.1",
   "description": "Application Environment Configure",
   "keywords": [
@@ -7,7 +7,7 @@
     "node",
     "javascript",
     "nconf",
-    "appConf",
+    "appconf",
     "express",
     "configure",
     "environment"
