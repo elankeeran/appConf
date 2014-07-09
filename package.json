@@ -1,0 +1,44 @@
+{
+  "name": "appConf",
+  "version": "0.0.1",
+  "description": "Application Environment Configure",
+    "keywords": [
+        "node.js",
+        "node",
+        "javascript",
+        "nconf",
+        "appConf",
+        "express",
+        "configure",
+        "environment"
+    ],
+    "main": "main.js",
+    "directories": {
+        "config": "./config",
+        "test": "./test"
+    },
+    "scripts": {
+        "test": "mocha -R spec test/*.js",
+        "cover": "istanbul cover  -- test/*.js",
+        "lint": "jshint -c .jshintrc main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elankeeran/appConf.git"
+    },
+    "author": "Elankeeran <ekeeran@gmail.com>",
+  "dependencies": {
+    "jsonminify": "^0.2.3",
+    "nconf": "^0.6.9"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1"
+  },
+    "appConf": {
+        "directories": "config",
+        "files": [
+            "app",
+            "api/api"
+        ]
+    }
+}
