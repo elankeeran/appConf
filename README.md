@@ -5,23 +5,48 @@ appConf
 
 Application Environment Configure
 
+Why : 
+To Read any environment specific configuration from the application.
 
-Setup
+Features :
+If you have not set the environment, by default "development" specific configurations will be loaded into the memory.
+Set the environment using NODE_ENV for specific environments like qa, production etc.
+```
+    These are the environments supported:
+    development,
+    test,
+    staging,
+    qa,
+    production
+```
+How To Configure:
 ======
 
-```
-var appConf = require('appconf').loadConf();
-```
-```
-console.log(appConf.get('port'), "port");
-```
-And do the following changes in <strong>package.json</strong>
+Add the directory path and file information in application <strong>package.json</strong>
 ```
 "appConf": {
-        "directories": "config", // directory name where your configure app json file are available
+        "directories": "config", // directory name which has all the configuration files
         "files": [
-            "app"  // mention array of files to read
+            "app"  // array of files
         ]
     }
 ``` 
+
+How To Use:
+======
+``` 
+var appConf = require('appconf').loadConf();
+```
+How get value appConf
+```
+console.log(appConf.get('port'), "->port");
+//3000 ->port
+```
+How set value appConf
+```
+appConf.set("host", "localhost");
+console.log(appConf.get("host"), "->host");
+//localhost ->host
+```
+
     
