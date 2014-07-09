@@ -1,5 +1,5 @@
 [![NPM version](https://badge.fury.io/js/appconf.svg)](http://badge.fury.io/js/appconf)
-
+[![BUILD version](https://travis-ci.org/elankeeran/appConf.svg)](https://travis-ci.org/elankeeran/appConf)
 [![NPM](https://nodei.co/npm/appconf.png)](https://nodei.co/npm/appconf/)
 
 appConf
